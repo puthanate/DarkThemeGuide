@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+    background-color: #383A56;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    color:aliceblue;
+}
+.colors{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 3px auto;
+}
+h2{
+    color: #151515;
+    text-align: center;
+}
+#groundpurple{
+    background-color: #202040;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+#groundpurple:hover{
+    opacity: 0.5;
+}
+#brightergroundpurple{
+    background-color: #202060;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+#brightergroundpurple:hover{
+    opacity: 0.5;
+}
+#purple{
+    background-color: #602080;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+#purple:hover{
+    opacity: 0.5;
+}
+#brightpurple{
+    background-color: #b030b0;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+#brightpurple:hover{
+    opacity: 0.5;
+}
+.fonts{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 3px auto;
+}
+.fonts p{
+    font-size: normal;
+    padding: 15px 15px;
+    margin: 3px auto;
+}
+.fonts p:hover{
+    opacity: 0.5;
+}
